@@ -23,9 +23,9 @@
           [ngClass]="{ 'is-invalid': submitted && f['username'].errors }"
         />
         <div *ngIf="submitted && f['username'].errors" class="invalid-feedback">
-          <div *ngIf="f['username'].errors['required']">insert the valid username</div>
+          <div *ngIf="f['username'].errors['required']"></div>
           <div *ngIf="f['username'].errors['minlength']">
-            Username must be at least 6 characters
+            Username must be at least 15 characters
           </div>
           <div *ngIf="f['username'].errors['maxlength']">
             Username must not exceed 20 characters
@@ -57,7 +57,7 @@
           [ngClass]="{ 'is-invalid': submitted && f['password'].errors }"
         />
         <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
-          <div *ngIf="f['password'].errors['required']">insert the valid password</div>
+          <div *ngIf="f['password'].errors['required']"></div>
           <div *ngIf="f['password'].errors['minlength']">
             Password must be at least 6 characters
           </div>

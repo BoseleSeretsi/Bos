@@ -3,11 +3,11 @@ p {
 }
 
 #root {
-  padding: 30px;
+  padding: 20px;
 }
 
 .register-form {
-  max-width: 350px;
+  max-width: 250px;
   margin: auto;
 }
 
@@ -15,14 +15,14 @@ p {
 
 * Bordered form */
 form {
-  border: 3px solid #f1f1f1;
+  border: 2px solid #f1f1f1;
 }
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  width: 80%;
+  padding: 10px 10px;
+  margin: 5px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -32,12 +32,15 @@ input[type=text], input[type=password] {
 button {
   background-color: #04AA6D;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 15px 300px;
+  margin: 400px 5;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 85%;
+  
 }
+
+
 
 /* Add a hover effect for buttons */
 button:hover {
